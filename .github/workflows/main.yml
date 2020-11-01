@@ -39,4 +39,4 @@ jobs:
         run: npm install --global surge
         
       - name: deploy react app to surge
-        run: surge ./build project003_auria.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build auria_assignment003.surge.sh --token ${{secrets.SURGE_TOKEN}}
